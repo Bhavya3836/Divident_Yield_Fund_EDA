@@ -10,7 +10,7 @@ IF NOT EXIST "DividentYield_V1\" (
 )
 
 echo Activating venv...
-call venv\Scripts\activate
+call DividentYield_V1\Scripts\activate
 
 echo Freezing requirements...
 pip freeze > requirements.txt
